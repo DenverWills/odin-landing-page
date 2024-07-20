@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+.headertop{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.headertop h4{
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    padding-left: 150px;
+}
+.headertop a{
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+.links{
+    padding-left: 950px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 60px;
+}
+.headerbottom{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bottom1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
+.headerbottom h2{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.headerbottom p{
+    color: #E5E7EB;
+    font-size: 18px;
+    max-width: 500px;
+    padding-bottom: 30px;
+}
+.headerbottom button{
+    background-color: rgb(39, 140, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+}
+.headerbottom a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(39, 140, 255);
+}
+.bottom2{
+    padding-left: 460px;
+}
+div .top{
+    background-color: #ffffff;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.top h3{
+    font-size: 36px;
+    font-style: extra bold;
+    color: #1F2937;
+}
+div .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+div .images div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+div .images div p{
+    max-width: 145px;
+}
+div .images {
+    gap: 50px;
+}
+.top2{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.quote{
+    font-size: 36px;
+    font-style:  italic;
+    color: #1F2937;
+    max-width: 840px;
+    text-align: left;
+}
+.citation{
+    font-size: 26px;
+    font-weight:  bold;;
+    color: #1F2937;
+    padding-left: 450px;
+}
+
+
